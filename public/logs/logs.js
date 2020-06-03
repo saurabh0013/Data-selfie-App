@@ -26,5 +26,5 @@ async function getData() {
     root.append(mood, geo, date, image);
     document.body.append(root);
   }
-  console.log(data);
+
 }

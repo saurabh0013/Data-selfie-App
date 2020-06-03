@@ -35,7 +35,7 @@ function setup() {
       navigator.geolocation.getCurrentPosition(position => {
         lat = position.coords.latitude;
         lon = position.coords.longitude;
-        console.log(lat, lon);
+       
         document.getElementById('latitude').textContent = lat.toFixed(2);
         document.getElementById('longitude').textContent = lon.toFixed(2);
         
