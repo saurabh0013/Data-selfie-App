@@ -4,6 +4,7 @@
   "description": "server side with express.js",
   "main": "server.js",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.16.3",
     "nedb": "^1.8.0",
     "nodemon": "^2.0.4",
